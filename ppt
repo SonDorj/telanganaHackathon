@@ -1,0 +1,18 @@
+Heatwaves typically refer to a consecutive number of hot days in which the temperature exceeds a given threshold. Heatwaves are considered natural disasters because of their connection to the environment (Ciais et al., 2005) and human health (De Bono et al., 2004). The Indian Meteorological Department (IMD) declares a Heatwave if the maximum temperature of a station reaches at least 40'C or more for Plains and at least 30'C or more for Hilly regions.
+
+AQI is a scale that runs from 0 to 500. The level of air pollution and the resulting health risk increase with increasing AQI values. For example, an AQI score of 50 or less indicates healthy air quality, whereas one over 300 indicates hazardous air quality.
+
+The challenge of this hackathon is to design a model that predicts the AQI and likelihood of Heatwaves in the North-Northeast part of Telangana for each month of the year 2023.
+
+For the Heatwave prediction, we will use Weather Research and Forecasting (WRF) Model, which is a state-of-the-art mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. For the AQI, we will use LASSO regression model, as it shows better performance. The correlation between AQI, no. of vehicles in a region, and industrial acitivity is also analysed. 
+
+telangana-weather-data-20xx from Telangana open data.
+AQI and AAQ data from TSPCB.
+TSNPDCL Industrial Consumption Data
+Telangana Transport Vehicle Online Sales Data
+National Centre for Medium Range Weather Forecasting (NCMRWF) generated Indian Monsoon Data Assimilation and Analysis (IMDAA) reanalysis data (https://rds.ncmrwf.gov.in/)
+
+Advanced Research Weather Research and Forecasting model version 4.4.1 is accurate for the application.
+The present air constitution can predict the future AQI upto some accuracy, and the future air pollution can be projected based on present vehicle and industrila emmission.
+
+ 
